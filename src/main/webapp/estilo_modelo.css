@@ -1,0 +1,244 @@
+body{
+	padding-top: 50px;
+}
+.navbar-default .navbar-brand{
+	color: white;
+}
+.navbar-default{
+	background-color: rgba(64, 93, 131, 0.8);
+}
+.navbar-default .navbar-nav > .active > a{
+	color: black;
+	
+}
+.navbar-default .navbar-nav > li > a{
+	color: white;
+}
+
+
+img[id="logo"]{
+	width: 50px;
+	height: 50px;
+	float: left;
+	
+}
+#carosel{
+	margin-top: 1%;
+}
+h2{
+	text-align: center;
+	font-family: "Raleway,sans-serif";
+	font-weight: bold;
+}
+section[id="descricao"]{
+	margin-top: 0;
+}
+img[id="logoDescricao"]{
+	width: 70%;
+	margin-bottom: 13%;
+}
+p[id="descricaologo"]{
+	margin-top: 10%;
+	font-family: "Raleway,sans-serif";
+	font-size: 115%;
+}
+img[id="logoRodape"]{
+	float: left;
+	margin-left: 28%;
+	margin-top: 3%;
+	margin-right: -19%;
+}
+
+footer{
+		width:100%;
+		position: relative;
+		bottom: 0;
+		color: black;
+		text-align: center;
+		background-color: rgba(64, 93, 131, 0.8);
+		font-weight: bold;
+		white-space: pre-line;
+	
+	}
+/*Iphone 6*/
+@media screen and(min-width: 375px){
+	img[id="imgCarosel"]{
+		width: 100%;
+		height: 230px;
+			
+	}
+}
+
+
+@media (min-width : 320px) and (max-width: 479px){
+	img[id="imgHotel"]{
+		width: 100%;
+		height: 35em;
+	}
+	img[id="imgCarosel"]{
+			width: 100%;
+			height: 230px;
+			
+	}
+	h2{
+		font-size: 140%;
+
+	}
+	img[id="logoDescricao"]{
+		height: 5em;
+		width: 5em;
+		margin-left: 35%;
+		margin-bottom: 3%;
+
+	}
+	p[id="descricaologo"]{
+		margin-top: 2%;
+		font-family: "Raleway,sans-serif";
+		font-size: 115%;
+		text-align: justify;
+	}
+	img[id="logoRodape"]{
+		float: left;
+		margin-left: 2%;
+		margin-top: 4%;
+		
+	}
+	footer{
+		font-size: 98%;
+	}
+	
+}
+@media screen and (min-width:480px) and (max-width: 599px) { 
+	img[id="imgHotel"]{
+		width: 100%;
+		height: 35em;
+	}
+	img[id="imgCarosel"]{
+		width: 445px;
+		height: 293px;
+		
+	}
+	img[id="logoDescricao"]{
+		margin-left: 34%;
+		width: 30%;
+		margin-bottom: -6%;
+		
+
+	}
+	p[id="descricaologo"]{
+		
+		text-align: justify;
+	}
+	footer{
+		font-size: 100%;
+	}
+
+}
+/*Netbooks*/
+@media screen and (min-width:600px) and (max-width: 767px) { 
+	img[id="imgHotel"]{
+		width: 100%;
+		height: 35em;
+	}
+	img[id="imgCarosel"]{
+		width: 565px;
+		height: 253px;
+		margin-left: 3%;
+	}
+	img[id="logoDescricao"]{
+		width: 24%;
+		height: 106px;
+		margin-left: 36%;
+		margin-bottom: -7%;
+	}
+	img[id="logoRodape"]{
+		margin-top: 4%;
+		width: 	59px;
+	}
+	footer{
+		font-size: 120%;
+	}
+}
+/*NoteBooks*/
+@media screen and (min-width:768px) and (max-width: 991px) { 
+	img[id="imgHotel"]{
+		width: 100%;
+		height: 35em;
+	}
+	img[id="imgCarosel"]{
+		width: 715px;
+		height: 253px;
+	}
+	img[id="logoDescricao"]{
+		margin-left: 40%;
+		width: 22%;
+		margin-bottom: -6%;
+
+	}
+	img[id="logoRodape"]{
+		float: left;
+		margin-left: 28%;
+		margin-top: 3%;
+		
+	}
+
+	
+}
+/*Desktop*/
+@media screen and (min-width:992px) and (max-width: 1199px) { 
+	img[id="imgHotel"]{
+		width: 90%;
+		height: 35em;
+		margin-left: 5%;
+	}
+	img[id="imgCarosel"]{
+			width: 925px;
+			height: 453px;
+			
+	}
+	img[id="logoRodape"]{
+		float: left;
+		margin-left: 25%;
+		margin-top: 1%;
+		height: 80px;
+	}
+	p[id="descricaologo"]{
+		font-size: 130%;
+	}
+	footer{
+		bottom: -70%;
+		font-size: 112%;
+	}
+
+}
+
+@media screen and (min-width:1200px) { 
+	img[id="imgHotel"]{
+		width: 90%;
+		height: 35em;
+		margin-left: 5%;
+	}
+	img[id="imgCarosel"]{
+		/*width: 1100px;*/
+		width: 82em;
+		height: 453px;
+			
+	}
+	p[id="descricaologo"]{
+		font-size: 130%;
+	}
+	img[id="logoRodape"]{
+		margin-top: 1%;
+		margin-left: 28%;
+		height: 70px;
+		padding-right: 0px;
+		margin-right: -33%;
+		padding-left: 68px;
+	}
+	footer{
+		bottom: -40px;
+		font-size: 118%;
+	}
+	
+		
+}

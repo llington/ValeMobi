@@ -1,0 +1,180 @@
+html{
+	position: relative;
+	min-height:100%;
+}
+header{
+	background-color: #abbec2;
+	width: 100%;
+	height: 5em;
+	color: black;
+	text-align: center;
+	font-weight: bold;
+	font-size:15px;
+}
+img[id="imgVale1"]{
+	width: 2.5%;
+	height: 30%;
+}
+h1{
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+	color: orangered;
+}
+figure{
+	float: right;
+	position:fixed;
+	right:1%;
+}
+label[id="avisoPreco"]{
+	color: red;
+}
+button{
+	width:20%;
+	margin-top:5%;
+	float:left;
+	margin-left:5%;
+}
+button[id="btCadastrar"]{
+	background-color: orangered;
+	color: #fff;
+}
+
+footer{
+	position: absolute;
+	bottom: -25px;	
+	background-color: #859ca1;
+	width: 100%;
+	color: white;
+	height: 3em;
+	position: absolute;
+	bottom: 0;
+	text-align: center;
+
+}
+
+
+@media (min-width : 320px) and (max-width: 479px){
+	img[id="vale1"]{
+		width: 14.5%;
+		height: 36%;
+	}
+	figure{
+		display: none;
+	}
+	footer{
+		bottom: -60px;
+	}
+	button{
+		width: 50%;
+	}
+	
+}
+@media screen and (min-width:480px) and (max-width: 599px) { 
+	img[id="vale1"]{
+		width: 10.5%;
+		height: 36%;
+	}
+	figure{
+		display: none;
+	}
+	button{
+		width: 50%;
+	}
+	footer{
+		bottom: -60px;
+	}
+	
+
+
+}
+/*Netbooks*/
+@media screen and (min-width:600px) and (max-width: 767px) { 
+	img[id="vale1"]{
+		width: 14.5%;
+		height: 36%;
+	}
+	
+	input[type="text"]{
+		width: 50%;
+	}
+	input[type="number"]{
+		width: 50%;
+	}
+	select[name="tipoMercadoria"]{
+		width: 50%;
+	}
+	footer{
+		bottom: -60px;
+	}
+	
+}
+/*NoteBooks*/
+@media screen and (min-width:768px) and (max-width: 991px) { 
+	img[id="vale1"]{
+		width: 9.5%;
+		height: 36%;
+	}
+	
+	input[type="text"]{
+		width: 50%;
+	}
+	input[type="number"]{
+		width: 50%;
+	}
+	select[name="tipoMercadoria"]{
+		width: 50%;
+	}
+	footer{
+		bottom: -60px;
+	}
+	
+	
+}
+/*Desktop*/
+@media screen and (min-width:992px) and (max-width: 1199px) { 
+	img[id="vale1"]{
+		width: 9.5%;
+		height: 36%;
+	}
+	form{
+		margin-top: 6%;
+	}
+	
+	input[type="number"]{
+		margin-left: 5%;
+		
+	}
+	select[name="tipoMercadoria"]{
+		width: 75%;
+	}
+	footer{
+		bottom: -60px;
+	}
+	
+
+}
+
+@media screen and (min-width:1200px) { 
+	
+	img[id="vale1"]{
+		width: 5.5%;
+		height: 36%;
+	}
+	form{
+		margin-top: 6%;
+	}
+	
+	input[type="number"]{
+		
+		margin-left: 3%;
+	}
+	select[name="tipoMercadoria"]{
+		width: 75%;
+	}
+	footer{
+		bottom: -60px;
+	}
+	
+		
+}

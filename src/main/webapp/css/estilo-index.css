@@ -1,0 +1,156 @@
+header{
+	background-color: #abbec2;
+	width: 100%;
+	height: 5em;
+	color: white;
+	text-align: center;
+	font-weight: bold;
+	font-size:15px;
+}
+img[id="vale1"]{
+	width: 2.5%;
+	height: 30%;
+}
+h1{
+	text-align: center;	
+}
+span{
+	margin-top: 1%;
+}
+#cadastraMercadoria{
+	width: 90%;
+	
+	margin: 4%;
+	font-weight: bold;
+	font-size: 130%;
+	background-color: rgb(237, 88, 33);
+	color: #fff;
+
+}
+#pesquisaMercadoria{
+	width: 90%;
+	
+	margin: 4%;
+	font-weight: bold;
+	font-size: 130%;
+	background-color: rgb(237, 88, 33);
+	color: #fff;
+
+}
+footer{
+	background-color: gray;
+	width: 100%;
+	color: white;
+	height: 3em;
+	position: absolute;
+	bottom: 0;
+	text-align: center;
+
+}
+@media (min-width : 320px) and (max-width: 479px){
+	img[id="vale1"]{
+		width: 11.5%;
+		height: 36%;
+	}
+	button[id="cadastraMercadoria"]{
+		height: 100px;
+		
+	}
+	button[id="pesquisaMercadoria"]{
+		height: 100px;
+	}
+	.container{
+		margin-top: 35px;
+	}
+}
+@media screen and (min-width:480px) and (max-width: 599px) { 
+	img[id="vale1"]{
+		width: 11.5%;
+		height: 36%;
+	}
+	button[id="cadastraMercadoria"]{
+		height: 150px;
+		
+	}
+	button[id="pesquisaMercadoria"]{
+		height: 150px;
+	}
+	.container{
+		margin-top: 75px;
+	}
+
+}
+/*Netbooks*/
+@media screen and (min-width:600px) and (max-width: 767px) { 
+	img[id="vale1"]{
+		width: 9.5%;
+		height: 36%;
+	}
+	button[id="cadastraMercadoria"]{
+		height: 150px;
+		
+	}
+	button[id="pesquisaMercadoria"]{
+		height: 150px;
+	}
+	.container{
+		margin-top: 75px;
+	}
+}
+/*NoteBooks*/
+@media screen and (min-width:768px) and (max-width: 991px) { 
+	img[id="vale1"]{
+		width: 9.5%;
+		height: 36%;
+	}
+	button[id="cadastraMercadoria"]{
+		height: 150px;
+		
+	}
+	button[id="pesquisaMercadoria"]{
+		height: 150px;
+	}
+	.container{
+		margin-top: 75px;
+	}
+	
+}
+/*Desktop*/
+@media screen and (min-width:992px) and (max-width: 1199px) { 
+	img[id="vale1"]{
+		width: 9.5%;
+		height: 36%;
+	}
+	button[id="cadastraMercadoria"]{
+		height: 110px;
+		
+	}
+	button[id="pesquisaMercadoria"]{
+		height: 110px;
+	}
+	.container{
+		margin-top: 75px;
+	}
+
+}
+
+@media screen and (min-width:1200px) { 
+	img[id="vale1"]{
+		width: 4.5%;
+		height: 36%;
+	}
+	button[id="cadastraMercadoria"]{
+		height: 120px;
+		
+	}
+	button[id="pesquisaMercadoria"]{
+		height: 120px;
+		
+		}
+	.container{
+		margin-top: 75px;
+		margin-top: 3%;
+	}
+	
+		
+}

@@ -1,0 +1,128 @@
+body{
+	padding-top: 50px;
+	
+}
+img[id="logo"]{
+	width: 50px;
+	height: 50px;
+	float: left;
+	
+}
+footer{
+		
+		width:100%;
+		position: relative;
+		bottom: 0;
+		color: black;
+		text-align: center;
+	}
+/*Celular máximo 480 */
+@media (min-width : 320px) {
+	figure[id="imgPontos"]{
+		width: 100%;
+		height: 12em;
+		float: left;
+	}
+	img[id="imgPontos"]{
+		width: 100%;
+		height: 12em;
+		float: left;
+	}
+	body{
+		background-color: black;
+	}
+	
+}
+
+
+/*Tablets*/
+@media screen and (min-width:480px) { 
+	figure[id="imgPontos"]{
+		width: 100%;
+		height: 12em;
+		float: left;
+	}
+	img[id="imgPontos"]{
+		width: 100%;
+		height: 12em;
+		float: left;
+	}
+	body{
+		background-color: green;
+	}
+
+}
+/*Tablets - 2*/
+@media screen and (min-width:600px) { 
+	figure[id="imgPontos"]{
+		width: 100%;
+		height: 12em;
+		float: left;
+	}
+	img[id="imgPontos"]{
+		width: 100%;
+		height: 12em;
+		float: left;
+	}
+	body{
+		background-color: purple;
+	}
+	
+}
+/*Tablets*/
+@media screen and (min-width:768px) { 
+	
+	figure[id="imgPontos"]{
+		width: 100%;
+		height: 15em;
+		float: left;
+	}
+	img[id="imgPontos"]{
+		width: 100%;
+		height: 15em;
+		float: left;
+	}
+	body{
+		background-color: gray;
+	}
+	
+}
+/*Notebook*/
+@media screen and (min-width:992px) { 
+	figure[id="imgPontos"]{
+		width: 40%;
+		height: 15em;
+		float: left;
+	}
+	img[id="imgPontos"]{
+		width: 90%;
+		height: 15em;
+		float: left;
+	}
+	body{
+		background-color: white;
+	}
+}
+h1{
+	font-family: "Tibetan Machine Uni","DejaVu Sans Mono","Arial";
+	text-align: center;
+}
+figure{
+	margin-left: 1%;
+}
+p{
+	text-align: justify;
+
+}
+h4{
+	padding-top: 1%;
+	border-top: 1px solid #9b8f8f;
+	text-align: center;
+}
+.borda{
+	padding-bottom: 1%;
+	border-bottom: 1px solid #9b8f8f;
+}
+.descricao{
+	width: 99%;
+}

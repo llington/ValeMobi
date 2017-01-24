@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<title>Cadastro de Mercadoria</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" media="screen">
+	<link rel="stylesheet" href="css/estilo-cadastroMercadoria.css">
+	<script src="js/jquery.min.js"></script>
+	<script src="js/cadastroMercadoria.js"></script>
+	
+
+</head>
+<body>
+	<header>
+		<br>
+		Plataforma Vale Mobi
+		<img src="imgs/vale.jpeg" alt="Logo da Vale Mobi" id="vale1">
+	</header>
+	
+	<figure>
+		<img src="imgs/vale.jpeg" alt="Logo da Vale Mobi" id="imgVale2">
+	</figure>
+	<section>
+		<h1>Cadastro de Mercadoria</h1>
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12">
+
+
+					<form class="form-horizontal" action="CadastroMercadoriaServlet" name="formCadastroMercadoria" onsubmit="exibirMensagem()" method="POST" >
+									(*) Campos Obrigatórios<br><br>
+									<div class="form-group">
+									<label for="codigo" class="col-xs-1 col-md-1 control-label">*Código</label>
+									<div class="col-xs-12 col-md-7">
+										<input type="text" class="form-control" id="codigo" name="codigo" placeholder="Código da mercadoria" required/>
+										</div>
+										
+								</div>
+
+								<div class="form-group">
+									<label for="tipo" class="col-xs-1 control-label">*Tipo:</label>
+									<div class="col-xs-12 col-md-7">
+										<input type="text" class="form-control" id="tipo" name="tipo" placeholder="Digite o tipo da Mercadoria" required>
+									</div>
+
+									
+								</div>
+
+								<div class="form-group">
+									<label for="nome" class="col-xs-1 col-md-1 control-label">*Nome:</label>
+									<div class="col-xs-12 col-md-7">
+										<input type="text" class="form-control" id="nome" name="nome" placeholder="Nome da mercadoria" required/>
+								
+									</div>
+								</div>
+
+								<div class="form-group">
+									<label for="quantidade" class="col-xs-2 col-md-1 control-label">*Quantidade:</label>
+									<div class="col-xs-12 col-md-4">
+										<input type="number" class="form-control" id="quantidade" min="1" name="quantidade" required/>
+									</div>
+
+									
+								</div>
+
+								<div class="form-group">
+									<label for="txtPreco" id="lblPreco" class="col-xs-1 control-label">*Preço:</label>
+									<div class="col-xs-12 col-md-4">
+										<input type="text" class="form-control" id="txtPreco" required name="preco"/>
+										<label id="avisoPreco">Sem pontos, somente vírgula</label>
+									</div>
+								</div>
+								<div class="form-group">
+									<label for="tipoMercadoria" class="col-xs-1 control-label">*Negócio:</label>
+									<div class="col-xs-12 col-md-5">
+										<select class="form-control" name="tipoMercadoria" id="tipoMercadoria">
+											<option value="Compra">Compra</option>
+											<option value="Venda">Venda</option>
+										</select>
+							
+									</div>
+								</div>
+								<button type="submit" class="btn-lg" id="btCadastrar">Cadastrar</button>
+							
+							
+					<button type="button" class="btn btn-danger btn-lg" onclick="voltarInicio();">Voltar</button>
+								</form>
+								</div>
+							
+						</div>
+					</div>
+
+</section>
+
+	<footer>
+	Desenvolvido por Hiran Neri.
+	</footer>
+
+
+
+
+	<script src="jquery.min.js"></script>
+	
+</body>
+
+</html>
